@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    flex: 100%;
+}
+.topo{
+    text-align: center;
+    background-color: grey;
+}
+#menu-h{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(70, 70, 70);
+}
+#menu-h ul li{
+    display: inline;
+}
+#menu-h ul li a{
+    display: inline;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background .4s;
+}
+#menu-h ul li a:hover{
+    background-color: blue;
+}
+.post{
+    background-color: grey;
+    padding: 25px;
+}
+.rodape{
+    background-color: rgb(70, 70, 70);
+    color: white;
+    text-align: center;
+}
